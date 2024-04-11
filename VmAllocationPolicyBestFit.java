@@ -1,3 +1,4 @@
+/*modified VmAllocationPolicySimple */
 package org.cloudbus.cloudsim;
 
 import java.util.ArrayList;
@@ -8,7 +9,8 @@ import java.util.Map;
 import org.cloudbus.cloudsim.core.CloudSim;
 
 /**
- * VmAllocationPolicyBestFit is a VmAllocationPolicy that chooses, as the host for a VM, the host
+ * VmAllocationPolicyBestFit is a VmAllocationPolicy that chooses, as the host
+ * for a VM, the host
  * with the least available PEs but enough to accommodate the VM.
  */
 public class VmAllocationPolicyBestFit extends VmAllocationPolicy {
@@ -115,7 +117,7 @@ public class VmAllocationPolicyBestFit extends VmAllocationPolicy {
     /**
      * Gets the VM's host specified by its ID and user ID.
      * 
-     * @param vmId the VM ID
+     * @param vmId   the VM ID
      * @param userId the user ID
      * @return the host executing the VM; null if not found
      * @pre $none
