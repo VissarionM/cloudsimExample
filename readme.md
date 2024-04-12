@@ -24,7 +24,9 @@ The password's hash is part of the URI. Enforce HTTPS to avoid man in the middle
 # Troubleshooting
 Test the demo page in your browser with password 'secret'
 Deploy the whole repo on your hosting, and test again.
-This file has the style, modified a bit.
+
+# See also
+This index.html has the styles, modified a bit.
 
 # Vanilla JavaScript App
 [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
