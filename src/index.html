@@ -59,16 +59,14 @@
             text-align: center;
         }
 
-        .protected__content__input {
-            display: block;
-            border: solid 1px #ccc;
-            padding: 12px 14px;
-            font-size: 16px;
-            width: 100%;
-            border-radius: 3px;
-            margin-bottom: 12px;
+        .protected__content__input,
+        .protected__content__btn {
+            width: calc(100% - 28px);
+            /* Adjust padding width */
             box-sizing: border-box;
             /* Ensure input size includes padding */
+            margin-right: 12px;
+            /* Add some space between input and button */
         }
 
         .protected__content__input:focus {
