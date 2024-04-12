@@ -8,7 +8,9 @@
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="styles.css">
     <!-- Common Styles -->
+    <link rel="stylesheet" href="styles.css">
     <style>
+        /* Common Styles */
         body,
         html {
             font-family: Arial, sans-serif;
@@ -18,20 +20,21 @@
             height: 100%;
         }
 
+        /* Container Styles */
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%;
+            height: 100vh;
         }
 
+        /* Protected Section Styles */
         .protected {
             background: #fff;
             box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
             border-radius: 5px;
             padding: 20px;
-            max-width: 500px;
-            /* Adjust the width as needed */
+            max-width: 400px;
             width: 100%;
         }
 
@@ -49,6 +52,13 @@
             margin-bottom: 20px;
         }
 
+        .protected__content__heading {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 12px;
+            text-align: center;
+        }
+
         .protected__content__input {
             display: block;
             border: solid 1px #ccc;
@@ -57,6 +67,8 @@
             width: 100%;
             border-radius: 3px;
             margin-bottom: 12px;
+            box-sizing: border-box;
+            /* Ensure input size includes padding */
         }
 
         .protected__content__input:focus {
@@ -74,13 +86,14 @@
             font-weight: 500;
             font-size: 16px;
             width: 100%;
+            display: block;
+            /* Ensure button takes full width */
         }
 
         .protected__content__btn:hover {
             background-color: #1C6D36;
         }
     </style>
-
 </head>
 
 <body>
