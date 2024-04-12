@@ -21,6 +21,7 @@ If your hosting service offers directory listing, a visitor can bypass the prote
 there's no protection against brute force attack. Pick a very long and hard to guess password.
 Pasting the link directly to someone will bypass the login
 Credit to @matteobrusa for his initial findings and implementation.
+This file has the style, modified a bit.
 
 # Vanilla JavaScript App
 [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
