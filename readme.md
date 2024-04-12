@@ -25,6 +25,7 @@ The password's hash is part of the URI. Enforce HTTPS to avoid man in the middle
 Test the demo page in your browser with password 'secret'
 Deploy the whole repo on your hosting, and test again.
 
+ matteobrusa
 # See also
 This index.html has the styles, modified a bit.
 
